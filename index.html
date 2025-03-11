@@ -11,9 +11,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
 
-</head>
+    </head>
     <!-- INICIO BODY -->
-    <body id="uno">
+    <body>
         <a name="home">
 
         </a>
@@ -32,6 +32,8 @@
 
             <p class="right margend">© 2023 Esta es la página de modificaciones especiales de Mercedes-Benz</p>
             <br>
+
+            <!-- INICIO NAVBAR -->
             <nav>
                 <ul>
                     <li><a class="active" href="#home">Inicio</a></li>
@@ -62,96 +64,110 @@
                     
                 </ul>
             </nav>
+            <!-- FIN NAVBAR -->
 
-                <center>
-                <br><a name="foto"></a><p style="padding-top:15px;"class="red"> Aquí podrás encontrar algunas imágenes del nuevo <span class="sub">Mercedes-Benz</span></center><center>
-                <a href="https://www.mercedes-benz.es/passengercars/campaigns/a-class/22-2.html"> <img id="presentation" src="./fotos/coche2.jpg" style="width:850px; height: 400px; padding: 10px; border: 10px solid red;"></a></center></p>
-                <br><a name="ber"></a>
-                <h1 class="subrayar" style="font-size: 40px; text-align: center;">Vehículos Personalizables</h1>
+             <!--FOTO PRINCIPAL  -->
+            <br>
+            <a name="foto"></a>
+            <p style="padding-top:15px;"class="red"> Aquí podrás encontrar algunas imágenes del nuevo <span class="sub">Mercedes-Benz</span>
+                <center>    
+                <a href="https://www.mercedes-benz.es/passengercars/campaigns/a-class/22-2.html">
+                    <img id="presentation" src="./img/coche2.jpg" style="width:850px; height: 400px; padding: 10px; border: 10px solid red;">
+                </a>
+                    </center>
+            </p>
+                
+            <br><a name="ber"></a>
+            <h1 class="subrayar" style="font-size: 40px; text-align: center;">Vehículos Personalizables</h1>
 
-                <h1 class="sombra margeniz">Berlina</h1>
-                <div class="slide">
-                    <div class="slide-inner">
-                        <input class="slide-open" type="radio" id="slide-1" 
-                            name="slide" aria-hidden="true" hidden="" checked="checked">
-                        <div class="slide-item">
+            <h1 class="sombra margeniz">Berlina</h1>
+            <!-- INICIO SLIDE -->
+            <div class="slide">
+                <div class="slide-inner">
+                    <input class="slide-open" type="radio" id="slide-1" 
+                        name="slide" aria-hidden="true" hidden="" checked="checked">                        
+                    <div class="slide-item">
                             <center><img id="berlina2" src="./img/berlina2.png" style="width:590px; height: 370px;"></center>
-                        </div>
-                        <input class="slide-open" type="radio" id="slide-2" 
-                            name="slide" aria-hidden="true" hidden="">
-                        <div class="slide-item">
-                            <center><img id="berlina3" src="./img/berlina3.png" style="width:555px; height: 350px;"></center>
-                        </div>
-                        <input class="slide-open" type="radio" id="slide-3" 
-                            name="slide" aria-hidden="true" hidden="">
-                        <div class="slide-item">
-                            <center><img id="berlina4" src="./img/berlina 4.png" style="width:600px; height: 350px;"></center>
-                        </div>
-                        <br>
-
-                        <label for="slide-3" class="slide-control prev control-1">‹</label>
-                        <label for="slide-2" class="slide-control next control-1">›</label>
-                        <label for="slide-1" class="slide-control prev control-2">‹</label>
-                        <label for="slide-3" class="slide-control next control-2">›</label>
-                        <label for="slide-2" class="slide-control prev control-3">‹</label>
-                        <label for="slide-1" class="slide-control next control-3">›</label>
-
-                        <ol class="slide-indicador">
-                            <li>
-                                <label for="slide-1" class="slide-circulo">•</label>
-                            </li>
-                            <li>
-                                <label for="slide-2" class="slide-circulo">•</label>
-                            </li>
-                            <li>
-                                <label for="slide-3" class="slide-circulo">•</label>
-                            </li>
-                        </ol>
                     </div>
-                </div>
-                <br><br>
 
-                <a name="suv"><br></a>
-                <h1 class="sombra margeniz">SUV</h1>
-                <div class="slide1">
-                    <div class="slide-inner1">
-                        <input class="slide-open1" type="radio" id="slide-11" 
+                    <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+                
+                    <div class="slide-item">
+                        <center><img id="berlina3" src="./img/berlina3.png" style="width:555px; height: 350px;"></center>
+                    </div>
+                        
+                    <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+                        
+                    <div class="slide-item">
+                        <center><img id="berlina4" src="./img/berlina 4.png" style="width:600px; height: 350px;"></center>
+                    </div>
+                    <br>
+
+                    <label for="slide-3" class="slide-control prev control-1">‹</label>
+                    <label for="slide-2" class="slide-control next control-1">›</label>
+                    <label for="slide-1" class="slide-control prev control-2">‹</label>
+                    <label for="slide-3" class="slide-control next control-2">›</label>
+                    <label for="slide-2" class="slide-control prev control-3">‹</label>
+                    <label for="slide-1" class="slide-control next control-3">›</label>
+
+                    <ol class="slide-indicador">
+                        <li>
+                            <label for="slide-1" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-2" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-3" class="slide-circulo">•</label>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <br><br>
+
+            <a name="suv"><br></a>
+            <h1 class="sombra margeniz">SUV</h1>
+            <div class="slide1">
+                <div class="slide-inner1">
+                    <input class="slide-open1" type="radio" id="slide-11" 
                             name="slide1" aria-hidden="true" hidden="" checked="checked">
-                        <div class="slide-item1">
-                            <center><img id="suv1" src="./img/suv1.png" style="width:590px; height: 370px;"></center>
-                        </div>
-                        <input class="slide-open1" type="radio" id="slide-21" 
-                            name="slide1" aria-hidden="true" hidden="">
-                        <div class="slide-item1">
-                            <center><img id="suv2" src="./img/suv2.png" style="width:555px; height: 350px;"></center>
-                        </div>
-                        <input class="slide-open1" type="radio" id="slide-31" 
-                            name="slide1" aria-hidden="true" hidden="">
-                        <div class="slide-item1">
-                            <center><img id="suv3" src="./img/suv3.png" style="width:600px; height: 350px;"></center>
-                        </div>
-                        <br>
-
-                        <label for="slide-31" class="slide-control prev control-11">‹</label>
-                        <label for="slide-21" class="slide-control next control-11">›</label>
-                        <label for="slide-11" class="slide-control prev control-21">‹</label>
-                        <label for="slide-31" class="slide-control next control-21">›</label>
-                        <label for="slide-21" class="slide-control prev control-31">‹</label>
-                        <label for="slide-11" class="slide-control next control-31">›</label>
-                        <ol class="slide-indicador1">
-                            <li>
-                                <label for="slide-11" class="slide-circulo1">•</label>
-                            </li>
-                            <li>
-                                <label for="slide-21" class="slide-circulo1">•</label>
-                            </li>
-                            <li>
-                                <label for="slide-31" class="slide-circulo1">•</label>
-                            </li>
-                        </ol>
+                    <div class="slide-item1">
+                        <center><img id="suv1" src="./img/suv1.png" style="width:590px; height: 370px;"></center>
                     </div>
+    
+                    <input class="slide-open1" type="radio" id="slide-21" 
+                            name="slide1" aria-hidden="true" hidden="">
+                    <div class="slide-item1">    
+                        <center><img id="suv2" src="./img/suv2.png" style="width:555px; height: 350px;"></center>
+                    </div>
+                    <input class="slide-open1" type="radio" id="slide-31" 
+                            name="slide1" aria-hidden="true" hidden="">
+                    <div class="slide-item1">
+                        <center><img id="suv3" src="./img/suv3.png" style="width:600px; height: 350px;"></center>
+                    </div>
+                    <br>
+
+                    <label for="slide-31" class="slide-control prev control-11">‹</label>
+                    <label for="slide-21" class="slide-control next control-11">›</label>
+                    <label for="slide-11" class="slide-control prev control-21">‹</label>
+                    <label for="slide-31" class="slide-control next control-21">›</label>
+                    <label for="slide-21" class="slide-control prev control-31">‹</label>
+                    <label for="slide-11" class="slide-control next control-31">›</label>
+                
+                    <ol class="slide-indicador1"
+                        <li>
+                            <label for="slide-11" class="slide-circulo1">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-21" class="slide-circulo1">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-31" class="slide-circulo1">•</label>
+                        </li>
+                    </ol>
                 </div>
-                <br><br>
+            </div>
+            <br><br>
         
             <a name="alerones"></a>
             <h1 class="subrayar" style="font-size: 40px; text-align: center;">Accesorios del Vehículo</h1>
