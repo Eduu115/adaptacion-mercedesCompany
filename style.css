@@ -1,20 +1,36 @@
+/* ESTILO GRAL */
 *{
     font-family: calibri;
     color: white;
     text-align: center;
 }
+
+/* SELECTORES */
+body{
+    background-image: url("./fotos/fondo.png");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+
+}
+
+/* CLASES E ID */
+/* Clases */
+h3.titulo{
+    color: black;
+}
+p.parrafo{
+    color: black;
+}
+/* ID */
 p#titledesc{
     font-family: arial;
     font-size: 300%;
     padding-top:4% ;
     
 }
-h3.titulo{
-  color: black;
-}
-p.parrafo{
-  color: black;
-}
+
 img#icon{
     width:14%;
     height:300%;
@@ -38,7 +54,7 @@ a#fixedtexto{
     
 
 }                                                                               
-div#barra{
+nav{
   width:100%;
   height:40px;                                                                                                  
 }                                                                                       
@@ -73,14 +89,6 @@ div#barra{
     
 }
 
-body#uno{
-    background-image: url("./fotos/fondo.png");
-    background-attachment: fixed;
-    background-repeat: repeat;
-    width: 100%;
-    height: 100%;
-
-}
 #dos{
     background-image: url("./fotos/FONDO2.png");
     background-attachment: fixed;
@@ -145,9 +153,6 @@ table, th, td{
 }
 .especiales{
     color: red;
-}
-body{
-    background-color: black;
 }
 #general {
   font-family: calibri;
