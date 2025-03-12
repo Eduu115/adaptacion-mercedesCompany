@@ -22,7 +22,28 @@ body{
 section{
     width: 100%;
 }
-
+header{
+    height: 200px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 150px 1fr;
+}
+nav{
+    grid-row: 2/3;
+    grid-column: span 2;
+}
+header div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+header img{
+    width: 120px;
+    height: 120px;
+    padding-left: 40px; 
+    padding-right:40px; 
+    padding-top: 20px;
+}
 /* CLASES E ID */
 /* Clases */
 h3.titulo{
@@ -32,6 +53,10 @@ p.parrafo{
     color: black;
 }
 /* ID */
+#colGrid p{
+    align-self: flex-end;
+    padding-right: 1%;
+}
 p#titledesc{
     font-family: arial;
     font-size: 300%;
