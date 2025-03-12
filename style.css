@@ -69,8 +69,11 @@ p.parrafo{
 p.titulos{
     font-family: arial;
 }
-
+.navDerecha{
+    float: right
+}
 .tituloSeccion{
+    margin-top: 0;
     font-size: 40px; 
     text-align: center;
 }
@@ -99,6 +102,7 @@ strong.blackText{
     color: #222;
     text-align: justify;
     margin-bottom: 15px;
+
 }
 
 .left{
@@ -130,6 +134,12 @@ strong.blackText{
 #vehiculosPersonalizables{
     padding-top: 24px;
 }
+#seccionPolitica{
+    padding-top: 72px;
+}
+#avisoLegal{
+    padding-top: 72px;
+}
 #politicaPrivacidad{
     background-color: #ced4da;
     color: black;
@@ -139,6 +149,7 @@ strong.blackText{
     overflow: scroll;
     margin-left: 10%;
     margin-top: 20px;
+    margin-bottom: 24px;
 }
 p#titledesc{
     font-family: arial;
