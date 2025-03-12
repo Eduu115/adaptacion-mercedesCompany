@@ -44,6 +44,10 @@ header img{
     padding-right:40px; 
     padding-top: 20px;
 }
+header div p{
+    align-self: flex-end;
+    padding-right: 1%;
+}
 /* CLASES E ID */
 /* Clases */
 h3.titulo{
@@ -52,11 +56,15 @@ h3.titulo{
 p.parrafo{
     color: black;
 }
-/* ID */
-#colGrid p{
-    align-self: flex-end;
-    padding-right: 1%;
+.tituloSeccion{
+    font-size: 40px; 
+    text-align: center;
 }
+/* ID */
+#vehiculosPersonalizables{
+    padding-top: 24px;
+}
+
 p#titledesc{
     font-family: arial;
     font-size: 300%;
