@@ -86,22 +86,60 @@ p.titulos{
     text-decoration: underline;
     text-decoration-color: red;
 }
-
-.white{
-    color: white;
-}
-.black{
+.blackText{
     color: black;
+}
+strong.blackText{
+    padding-top: 24px;
 }
 .red{
     color: red;
 }
+#politicaPrivacidad p{
+    color: #222;
+    text-align: justify;
+    margin-bottom: 15px;
+}
 
+.left{
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.subrayar{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.sombra{
+    text-shadow: 2px 2px 5px red;
+}
+.margens{
+    margin-top: 15px;
+}
+.margend{
+    margin-right: 15px;
+}
+.margeniz{
+    margin-left: 15px;
+}
 /* ID */
 #vehiculosPersonalizables{
     padding-top: 24px;
 }
-
+#politicaPrivacidad{
+    background-color: #ced4da;
+    color: black;
+    width: 80%;
+    height: 150px;
+    border: 2px solid white;
+    overflow: scroll;
+    margin-left: 10%;
+    margin-top: 20px;
+}
 p#titledesc{
     font-family: arial;
     font-size: 300%;
@@ -241,34 +279,7 @@ h1{
 #sin{
     text-decoration: none;
 }
-.left{
-    text-align: left;
-}
-.center{
-    text-align: center;
-}
-.right{
-    text-align: right;
-}
-.subrayar{
-    text-decoration: underline;
-    text-decoration-color: white;
-}
-.sombra{
-    text-shadow: 2px 2px 5px red;
-}
-.margens{
-    margin-top: 15px;
-}
-.margend{
-    margin-right: 15px;
-}
-.margeni{
-    margin-bottom: 15px;
-}
-.margeniz{
-    margin-left: 15px;
-}
+
 
 ul.a {
   list-style-type: circle;
@@ -294,16 +305,6 @@ img.dtxt{
     left: 15px;
     top: 15px;
     z-index: -1;
-}
-div.a {
-  background-color: #ced4da;
-  color: black;
-  width: 80%;
-  height: 150px;
-  border: 2px solid white;
-  overflow: scroll;
-  margin-left: 10%;
-  margin-top: 20px;
 }
 img.iz{
     float: left;
