@@ -27,10 +27,12 @@ header{
     display: grid;
     grid-template-columns: 200px 1fr;
     grid-template-rows: 150px 1fr;
-}
+} 
 nav{
     grid-row: 2/3;
     grid-column: span 2;
+    width:100%;
+    height:40px; 
 }
 header div{
     display: flex;
@@ -48,6 +50,14 @@ header div p{
     align-self: flex-end;
     padding-right: 1%;
 }
+summary{
+    font-size: 25px; 
+    color:#ced4da;
+}
+details p{
+    color:#ced4da;
+    font-size: 12px;
+}
 /* CLASES E ID */
 /* Clases */
 h3.titulo{
@@ -56,10 +66,37 @@ h3.titulo{
 p.parrafo{
     color: black;
 }
+p.titulos{
+    font-family: arial;
+}
+
 .tituloSeccion{
     font-size: 40px; 
     text-align: center;
 }
+.aviso{
+    text-align: justify;
+    font-family: arial;
+    text-align: left;
+    color: #ced4da;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.subrasu{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.white{
+    color: white;
+}
+.black{
+    color: black;
+}
+.red{
+    color: red;
+}
+
 /* ID */
 #vehiculosPersonalizables{
     padding-top: 24px;
@@ -71,7 +108,12 @@ p#titledesc{
     padding-top:4% ;
     
 }
+#desc{
+    text-align: center;
+    text-align: justify;
+    padding-top: 10%;
 
+}
 #icon{
     width:14%;
     height:300%;
@@ -137,36 +179,7 @@ a#fixedtexto{
 #fotoCoche{
     padding-top: 35px;
 }
-nav{
-  width:100%;
-  height:40px;                                                                                                  
-}                                                                                       
 
-p.titulos{
-    font-family: arial;
-}
-.aviso{
-    font-family: arial;
-    text-align: left;
-    color: #ced4da;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-.white{
-    color: white;
-}
-.black{
-    color: black;
-}
-.red{
-    color: red;
-}
-#desc{
-    text-align: center;
-    text-align: justify;
-    padding-top: 10%;
-
-}
 
 th{
     height: 60px;
@@ -231,35 +244,11 @@ h1{
 .left{
     text-align: left;
 }
-.sub{
-    text-decoration: underline;
-    text-decoration-color:red;
-    color: white;
-
-}
 .center{
     text-align: center;
 }
 .right{
     text-align: right;
-}
-.justify{
-    text-align: justify;
-}
-.lastc{
-    text-align-last: center;
-}
-.subrasu{
-    text-decoration: overline;
-    text-decoration-color: red;
-}
-.subrasu1{
-    text-decoration: underline;
-    text-decoration-color: red;
-}
-.subraya{
-    text-decoration: underline;
-    text-decoration-color: white;
 }
 .subrayar{
     text-decoration: underline;
