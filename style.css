@@ -58,7 +58,18 @@ details p{
     color:#ced4da;
     font-size: 12px;
 }
+#politicaPrivacidad p{
+    color: #222;
+    text-align: justify;
+    margin-bottom: 15px;
+
+}
+#accesorios h1{
+    padding-top: 24px;
+}
+
 /* CLASES E ID */
+
 /* Clases */
 h3.titulo{
     color: black;
@@ -68,6 +79,9 @@ p.parrafo{
 }
 p.titulos{
     font-family: arial;
+}
+.cajaCarrusell{
+    padding-top: 50px;
 }
 .navDerecha{
     float: right
@@ -98,13 +112,6 @@ strong.blackText{
 .red{
     color: red;
 }
-#politicaPrivacidad p{
-    color: #222;
-    text-align: justify;
-    margin-bottom: 15px;
-
-}
-
 .left{
     text-align: left;
 }
@@ -136,6 +143,9 @@ strong.blackText{
 }
 #seccionPolitica{
     padding-top: 72px;
+}
+#accesorios{
+    padding-top: 50px;
 }
 #avisoLegal{
     padding-top: 72px;
