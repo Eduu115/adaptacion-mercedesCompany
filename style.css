@@ -58,6 +58,12 @@ details p{
     color:#ced4da;
     font-size: 12px;
 }
+iframe{
+    display:none;
+    visibility:hidden;
+    width: 0;
+    height: 0;
+}
 #politicaPrivacidad p{
     color: #222;
     text-align: justify;
