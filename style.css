@@ -64,12 +64,7 @@ iframe{
     width: 0;
     height: 0;
 }
-#politicaPrivacidad p{
-    color: #222;
-    text-align: justify;
-    margin-bottom: 15px;
 
-}
 #accesorios h1{
     padding-top: 24px;
 }
@@ -156,17 +151,7 @@ strong.blackText{
 #avisoLegal{
     padding-top: 72px;
 }
-#politicaPrivacidad{
-    background-color: #ced4da;
-    color: black;
-    width: 80%;
-    height: 150px;
-    border: 2px solid white;
-    overflow: scroll;
-    margin-left: 10%;
-    margin-top: 20px;
-    margin-bottom: 24px;
-}
+
 p#titledesc{
     font-family: arial;
     font-size: 300%;
