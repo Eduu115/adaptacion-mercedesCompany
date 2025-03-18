@@ -14,7 +14,7 @@
     <!-- INICIO BODY -->
     <body>
         <noscript>
-            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MB7HJ8K"></iframe>
+            <iframe id="noscript" src="https://www.googletagmanager.com/ns.html?id=GTM-MB7HJ8K"></iframe>
         </noscript>
         <!-- INICIO MAIN -->
         <main>
@@ -255,17 +255,56 @@
             </section>
             <!-- FIN SECCION AVISO LEGAL -->
 
-            <!-- INICIO SECCION CLIENTES -->
-            <section>
+            <!-- INICIO SECCION TRABAJO -->
+            <section id="trabajoEnEquipo">
+
+                <h1 class="tituloSeccion subrayar">Una muestra de como trabajamos   </h1>
+                <div id="contenido-video">
+                    <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/tpVVORk_h5w?si=xhAhMwGBdq5lUlbQ" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                    </iframe>
+                </div>
 
             </section>
-            <!-- FIN SECCION CLIENTES -->
+            <!-- FIN SECCION TRABAJO -->
 
             <!-- INICIO SECCION CONTACTO -->
-            <section>
-                <!-- titulo y eso -->
+            <section id="formulario">
+                <h1 class="tituloSeccion subrayar">Contacta con nosotros</h1>
                 <!-- sasd -->
                 <form action="#">
+
+                    
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" minlength="2" maxlength="64" size="32" required>
+                    
+    
+                    
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" name="empresa" minlength="1" maxlength="127" size="32">
+                    
+                    
+                    
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" minlength="5" maxlength="128" size="32" required>
+                    
+                    
+                    
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" rows="5" cols="33"></textarea>
+                    
+    
+                    <!-- ENVIAR -->
+                    <div class="item-form">
+                        <input type="submit" name="enviar" id="enviar" value="CONTACTAR">
+                    </div>
+                    <!-- FIN ENVIAR -->
+                
 
                 </form>
             </section>
