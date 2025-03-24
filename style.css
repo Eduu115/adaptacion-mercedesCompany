@@ -34,7 +34,15 @@ nav{
     width:100%;
     height:40px;
 }
-
+a:any-link{
+    cursor: pointer;
+}
+a:-webkit-any-link{
+    cursor: pointer;
+}
+a:-moz-any-link{
+    cursor: pointer;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -412,7 +420,23 @@ img.faros{
   box-sizing: border-box;
   height: 65%;
 }
-
+/* TODO LOS FLEX DE FOTOS */
+.contenedor-fotos{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.contenedor-fotos div{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-fotos div img{
+    width: 100%;
+    height: auto;
+}
 
 /*Todo lo que respecta al formulario*/
 form{
