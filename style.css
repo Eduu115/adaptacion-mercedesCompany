@@ -57,6 +57,9 @@ header div{
     justify-content: space-between;
     align-items: flex-end;
 }
+header div p{
+    padding-right: 15px;
+}
 header img{
     width: 120px;
     height: 120px;
@@ -301,7 +304,7 @@ a#fixedtexto{
 
 }
 #fotoCoche{
-    padding-top: 35px;
+    padding-top: 45px;
 }
 #azulito{
    background-color: red;
@@ -926,5 +929,10 @@ li.dropdown {
     textarea{
         height: 100%;
         max-height: 80%;
+    }
+    #enlaceFotoCoche{
+        display: block;
+        height: 0;
+        width: 0;
     }
 }
