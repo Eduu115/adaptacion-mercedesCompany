@@ -195,13 +195,22 @@ strong.blackText{
 #avisoLegal{
     padding-top: 72px;
 }
+#formulario{
+    max-width: 100%;
+    /* flex-direction: column;
+    align-items: center; */
+}
+#trabajoEnEquipo{
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
 #presentation{
     width:850px;
     height: 400px;
     padding: 10px;
     border: 10px solid red;
 }
-#media-oculto {
+#media-oculto{
     visibility: hidden;
     height: 0;
 }
@@ -211,10 +220,6 @@ strong.blackText{
     width: 0;
     height: 0;
 
-}
-#trabajoEnEquipo{
-    padding-top: 10px;
-    margin-bottom: 50px;
 }
 #trabajoEnEquipo h1{
     text-align: center;
@@ -438,13 +443,6 @@ textarea{
     max-height: 120%;
 }
 
-#formulario{
-
-    max-width: 100%;
-    
-    /* flex-direction: column;
-    align-items: center; */
-}
 
 
 
