@@ -48,7 +48,10 @@ ul {
 li {
     float: left;
 }
-
+/* asi solo se aplica en i, cuando te pones encima del enlace (a) */
+a:hover i{
+    color: red;
+}
 header div{
     display: flex;
     justify-content: space-between;
