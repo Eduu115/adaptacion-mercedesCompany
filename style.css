@@ -89,17 +89,18 @@ table, th, td{
     border-collapse: collapse;
     border-color: black;
     margin-left: 10%;
-    align-content: justify;
-    text-align: justify-all;
+    align-content: center;
+    text-align: center;
 }
 table{
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 100%;
 }
 tbody, tr{
-    width: 100%;
+    width: fit-content;
 }
 
 
@@ -369,7 +370,12 @@ a#fixedtexto{
 .especiales{
     color: red;
 }
-
+#contenedor-tabla{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 #general td, #general th {
   border: 2px solid #000000;
   padding: 8px;
@@ -384,6 +390,8 @@ a#fixedtexto{
   background-color: #ced4da;
   color: black;
 }
+
+
 h1{
     text-align: left;
     padding-left: 50px;
