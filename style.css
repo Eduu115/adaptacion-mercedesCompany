@@ -1,7 +1,7 @@
 /* ESTILO GRAL */
 *{
-    font-family: calibri;
-    color: white;
+    font-family: 'Roboto';
+    color: white;   
     text-align: center;
 }
 /* DISEÑO */
@@ -250,7 +250,7 @@ strong.blackText{
     justify-content: center;
 }
 p#titledesc{
-    font-family: arial;
+    font-weight: 700;
     font-size: 300%;
     padding-top:4% ;
 
@@ -356,7 +356,6 @@ a#fixedtexto{
 h1{
     text-align: left;
     padding-left: 50px;
-    font-family: arial;
     font-size: 25px;
     color: #ced4da;
 }
