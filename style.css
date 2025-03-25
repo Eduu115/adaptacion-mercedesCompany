@@ -170,7 +170,6 @@ iframe{
     width:555px;
     height: 350px;
 }
-
 .carrusel-elemento {
     float: left;
     width: 33.333%;
@@ -186,7 +185,6 @@ iframe{
 .imgjuntas-carrusell {
     float: left;
     padding: 15px;
-    padding: 5%;
     box-sizing: border-box;
 }
 .negro{
@@ -343,20 +341,6 @@ h1{
     font-size: 25px;
     color: #ced4da;
 }
-#sin{
-    text-decoration: none;
-}
-
-
-ul.a {
-  list-style-type: circle;
-  list-style-position: outside;
-}
-
-ul.b {
-  list-style-type: square;
-  list-style-position: inside;
-}
 
 /* TODO LOS FLEX DE FOTOS */
 .contenedor-fotos{
@@ -410,7 +394,7 @@ textarea{
     color: #000000;
     padding: 5px;
     text-align: left;
-    max-width: 97%;
+    max-width: 100%;
     height: 110%;
     max-height: 120%;
 }
@@ -422,16 +406,13 @@ textarea{
 
 /* Pequeña nota: está todo hecho con contenidos que he dado en clase y con ejemplos que hemos hecho, tanto de dropdowns como de animaciones */
 
+/*clases*/
 li a, .dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
 }
 
 li.dropdown {
@@ -446,7 +427,6 @@ li.dropdown {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -454,22 +434,19 @@ li.dropdown {
   display: block;
   text-align: left;
 }
-
-.dropdown-content a:hover {background-color: #f1f1f1;}
-
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-.active {
+.nav-inicio {
   background-color: red;
 }
-
 .topnav {
   overflow: hidden;
   background-color: #333;
 }
-
 .topnav a {
   float: left;
   display: block;
@@ -478,11 +455,11 @@ li.dropdown {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
+/*id's*/
 #carrusel-caja {
 
     -moz-animation: automatizacion 12s infinite linear;
@@ -502,12 +479,11 @@ li.dropdown {
     padding-left: 5%;
 }
 #carrusel-contenido {
-
     margin: 0 auto;
     overflow: hidden;
     text-align: center;
 }
-
+/*animaciones compatibles con mayoria de navegadores*/
 @-moz-keyframes automatizacion {
     0% {
         margin-left: 0;
