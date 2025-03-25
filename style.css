@@ -120,24 +120,16 @@ table{
 tbody, tr{
     width: fit-content;
 }
-
-
 #accesorios h1{
     padding-top: 24px;
+}
+iframe{
+    border-radius: 15px;
 }
 
 /* CLASES E ID */
 
 /* Clases */
-h3.titulo{
-    color: black;
-}
-p.parrafo{
-    color: black;
-}
-p.titulos{
-    font-family: arial;
-}
 .cajaCarrusell{
     padding-top: 50px;
 }
@@ -161,23 +153,8 @@ p.titulos{
     text-decoration: underline;
     text-decoration-color: red;
 }
-.blackText{
-    color: black;
-}
-strong.blackText{
-    padding-top: 24px;
-}
 .red{
     color: red;
-}
-.left{
-    text-align: left;
-}
-.center{
-    text-align: center;
-}
-.right{
-    text-align: right;
 }
 .subrayar{
     text-decoration: underline;
@@ -186,18 +163,35 @@ strong.blackText{
 .sombra{
     text-shadow: 2px 2px 5px red;
 }
-.margens{
-    margin-top: 15px;
-}
-.margend{
-    margin-right: 15px;
-}
 .margeniz{
     margin-left: 15px;
 }
 .cochesFoto{
     width:555px;
     height: 350px;
+}
+
+.carrusel-elemento {
+    float: left;
+    width: 33.333%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carrusel-elemento img{
+    height: 200px;
+    width: auto;
+}
+.imgjuntas-carrusell {
+    float: left;
+    padding: 15px;
+    padding: 5%;
+    box-sizing: border-box;
+}
+.negro{
+    color: #000000;
+    background-color: lightgray;
 }
 /* ID */
 /* -----Secciones */
@@ -321,20 +315,6 @@ a#fixedtexto{
 #fotoCoche{
     padding-top: 45px;
 }
-#azulito{
-   background-color: red;
-}
-#a.oscuro{
-    background-color: #03045e;
-    color: white;
-}
-#rosita{
-    color: #000000;
-    background-color: lightgray;
-}
-.especiales{
-    color: red;
-}
 #contenedor-tabla{
     display: flex;
     flex-direction: row;
@@ -378,51 +358,6 @@ ul.b {
   list-style-position: inside;
 }
 
-ol.c {
-  list-style-type: upper-roman;
-  list-style-position: outside;
-}
-
-ol.d {
-  list-style-type: lower-alpha;
-  list-style-position: inside;
-}
-img.dtxt{
-    position: absolute;
-    left: 15px;
-    top: 15px;
-    z-index: -1;
-}
-img.iz{
-    float: left;
-}
-img.dr{
-    float: right;
-}
-img.imgjuntas {
-  float: left;
-  width: 70%;
-  padding: 15px;
-  padding-left: 40%;
-  box-sizing: border-box;
-  height: 50%;
-}
-img.imgjuntas1 {
-  float: left;
-  width: 70%;
-  padding: 15px;
-  padding-left: 40%;
-  box-sizing: border-box;
-  height: 40%;
-}
-img.faros{
-  float: left;
-  width: 65%;
-  padding: 15px;
-  padding-left: 45%;
-  box-sizing: border-box;
-  height: 65%;
-}
 /* TODO LOS FLEX DE FOTOS */
 .contenedor-fotos{
     display: flex;
@@ -564,6 +499,7 @@ li.dropdown {
     align-content: center;
     padding-bottom: 50px;
     padding-top: 24px;
+    padding-left: 5%;
 }
 #carrusel-contenido {
 
@@ -571,14 +507,7 @@ li.dropdown {
     overflow: hidden;
     text-align: center;
 }
-.imagenes{
-    height: 200px;
-    width: 100%;
-}
-.carrusel-elemento {
-    float: left;
-    width: 33.333%;
-}
+
 @-moz-keyframes automatizacion {
     0% {
         margin-left: 0;
@@ -690,33 +619,7 @@ li.dropdown {
   display: block;
 }
 
-#titulo {
-    width: 100%;
-    position: absolute;
-    padding: 0px;
-    margin: 0px auto;
-    text-align: center;
-    font-size: 27px;
-    color: rgba(255, 255, 255, 1);
-    font-family: 'Open Sans', sans-serif;
-    z-index: 9999;
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33),
-    -1px 0px 2px rgba(255, 255, 255, 0);
-}
 
-#titulo1 {
-    width: 100%;
-    position: absolute;
-    padding: 0px;
-    margin: 0px auto;
-    text-align: center;
-    font-size: 27px;
-    color: rgba(255, 255, 255, 1);
-    font-family: 'Open Sans', sans-serif;
-    z-index: 9999;
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33),
-    -1px 0px 2px rgba(255, 255, 255, 0);
-}
 /* ---------------------------------------------------------------MEDIA QUERY------------------------ */
 @media (width < 800px){
     #presentation{
@@ -736,8 +639,10 @@ li.dropdown {
     iframe{
         visibility: hidden;
         height: 0;
+        
     }
-    img.imgjuntas, img.imgjuntas1{
+    /* Para sobreescribir el scale x 0.8 de antes */
+    .imgjuntas-carrusell{
         transform: scale(1);
     }
     *{
