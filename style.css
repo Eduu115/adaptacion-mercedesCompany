@@ -115,7 +115,7 @@ table{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 80%;
 }
 tbody, tr{
     width: fit-content;
@@ -238,6 +238,9 @@ strong.blackText{
     width: 0;
     height: 0;
 
+}
+#berlinas{
+    padding-top: 24px;
 }
 #trabajoEnEquipo h1{
     text-align: center;
@@ -426,6 +429,7 @@ img.faros{
     gap: 30px;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
 }
 .contenedor-fotos div{
     width: 30%;
@@ -555,9 +559,11 @@ li.dropdown {
     -ms-transition: all 0.75s ease;
     -o-transition: all 0.75s ease;
     transition: all 0.75s ease;
-    height: 500px;
+    height: max-content;
     width: 300%;
     align-content: center;
+    padding-bottom: 50px;
+    padding-top: 24px;
 }
 #carrusel-contenido {
 
@@ -719,12 +725,12 @@ li.dropdown {
         visibility: hidden;
     }
     img{
-        transform: scale(0.5);
+        transform: scale(0.8);
     }
     #media-oculto{
         visibility: visible;
-        padding-top: 25px;
-        padding-bottom: 50px;
+        padding-top: 12px;
+        padding-bottom: 24px;
         height: auto;
     }
     iframe{
@@ -780,5 +786,20 @@ li.dropdown {
         display: block;
         height: 0;
         width: 0;
+    }
+    summary{
+        font-size: 18px;
+    }
+    
+}
+
+/* media para el flex de las fotos al ser mas pequeño */
+@media (width < 500px) {
+    .contenedor-fotos{
+        gap: 10px;
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
